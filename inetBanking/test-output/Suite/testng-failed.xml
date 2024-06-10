@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test name="banking_Test(failed)">
     <classes>
       <class name="testcCases.TC_001_Logintest">
         <methods>
@@ -12,5 +11,5 @@
         </methods>
       </class> <!-- testcCases.TC_001_Logintest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- banking_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

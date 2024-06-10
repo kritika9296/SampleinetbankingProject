@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-inetBanking" class="navigator-link">
-              <span class="suite-name border-skipped">inetBanking</span>
+            <a href="#" panel-name="suite-bankingSuite" class="navigator-link">
+              <span class="suite-name border-failed">bankingSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-inetBanking" class="navigator-link ">
-                    <span>C:\Users\kriti\eclipse-workspace\inetBanking\testng.xml</span>
+                  <a href="#" panel-name="test-xml-bankingSuite" class="navigator-link ">
+                    <span>C:\Users\kriti\git\SampleinetbankingProject\inetBanking\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="testlist-bankingSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="group-bankingSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="times-bankingSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="reporter-bankingSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-bankingSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-inetBanking" class="navigator-link ">
+                  <a href="#" panel-name="chronological-bankingSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-inetBanking" class="hide-methods skipped suite-inetBanking"> (hide)</a> <!-- hide-methods skipped suite-inetBanking -->
-                      <a href="#" panel-name="suite-inetBanking" class="show-methods skipped suite-inetBanking"> (show)</a> <!-- show-methods skipped suite-inetBanking -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-bankingSuite" class="hide-methods failed suite-bankingSuite"> (hide)</a> <!-- hide-methods failed suite-bankingSuite -->
+                      <a href="#" panel-name="suite-bankingSuite" class="show-methods failed suite-bankingSuite"> (show)</a> <!-- show-methods failed suite-bankingSuite -->
                     </span>
-                    <div class="method-list-content skipped suite-inetBanking">
+                    <div class="method-list-content failed suite-bankingSuite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-inetBanking" title="testcCases.TC_001_Logintest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bankingSuite" title="testcCases.TC_LOGIN_DDT_002" class="method navigator-link" hash-for-method="DDT(abcd, sfst)">DDT(abcd, sfst)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-inetBanking -->
+                    </div> <!-- method-list-content failed suite-bankingSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-bankingSuite" class="hide-methods passed suite-bankingSuite"> (hide)</a> <!-- hide-methods passed suite-bankingSuite -->
+                      <a href="#" panel-name="suite-bankingSuite" class="show-methods passed suite-bankingSuite"> (show)</a> <!-- show-methods passed suite-bankingSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-bankingSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bankingSuite" title="testcCases.TC_LOGIN_DDT_002" class="method navigator-link" hash-for-method="DDT(mngr576019, abejAnU)">DDT(mngr576019, abejAnU)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bankingSuite" title="testcCases.TC_LOGIN_DDT_002" class="method navigator-link" hash-for-method="DDT(mngr574690, pUdepEh)">DDT(mngr574690, pUdepEh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bankingSuite" title="testcCases.TC_LOGIN_DDT_002" class="method navigator-link" hash-for-method="DDT(mngr576017, tubAjUg)">DDT(mngr576017, tubAjUg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-bankingSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,121 +140,186 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-inetBanking" class="panel inetBanking">
-          <div class="suite-inetBanking-class-skipped">
+        <div panel-name="suite-bankingSuite" class="panel bankingSuite">
+          <div class="suite-bankingSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testcCases.TC_001_Logintest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testcCases.TC_LOGIN_DDT_002</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;testcCases.baseClass.driver&quot; is null
-	at testcCases.baseClass.setup(baseClass.java:35)
-... Removed 25 stack frames
+                  <a name="DDT(abcd, sfst)">
+                  </a> <!-- DDT(abcd, sfst) -->
+                  <span class="method-name">DDT</span>
+                  <span class="parameters">(abcd, sfst)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testcCases.TC_LOGIN_DDT_002.DDT(TC_LOGIN_DDT_002.java:26)
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-inetBanking-class-skipped -->
-        </div> <!-- panel inetBanking -->
-        <div panel-name="test-xml-inetBanking" class="panel">
+          </div> <!-- suite-bankingSuite-class-failed -->
+          <div class="suite-bankingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcCases.TC_LOGIN_DDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DDT(mngr576019, abejAnU)">
+                  </a> <!-- DDT(mngr576019, abejAnU) -->
+                  <span class="method-name">DDT</span>
+                  <span class="parameters">(mngr576019, abejAnU)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DDT(mngr574690, pUdepEh)">
+                  </a> <!-- DDT(mngr574690, pUdepEh) -->
+                  <span class="method-name">DDT</span>
+                  <span class="parameters">(mngr574690, pUdepEh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DDT(mngr576017, tubAjUg)">
+                  </a> <!-- DDT(mngr576017, tubAjUg) -->
+                  <span class="method-name">DDT</span>
+                  <span class="parameters">(mngr576017, tubAjUg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bankingSuite-class-passed -->
+        </div> <!-- panel bankingSuite -->
+        <div panel-name="test-xml-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kriti\eclipse-workspace\inetBanking\testng.xml</span>
+            <span class="header-content">C:\Users\kriti\git\SampleinetbankingProject\inetBanking\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;inetBanking&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;bankingSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;TC_001_Logintest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcCases.TC_001_Logintest&quot;/&gt;
+      &lt;class name=&quot;testcCases.TC_LOGIN_DDT_002&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-&lt;/suite&gt; &lt;!-- inetBanking --&gt;
+  &lt;/test&gt; &lt;!-- TC_001_Logintest --&gt;
+&lt;/suite&gt; &lt;!-- bankingSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-inetBanking" class="panel">
+        <div panel-name="testlist-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for inetBanking</span>
+            <span class="header-content">Tests for bankingSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">TC_001_Logintest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-inetBanking" class="panel">
+        <div panel-name="group-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for inetBanking</span>
+            <span class="header-content">Groups for bankingSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-inetBanking" class="panel">
+        <div panel-name="times-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for inetBanking</span>
+            <span class="header-content">Times for bankingSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_inetBanking');
-function tableData_inetBanking() {
+suiteTableInitFunctions.push('tableData_bankingSuite');
+function tableData_bankingSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'testcCases.TC_001_Logintest')
-data.setCell(0, 3, 0);
-window.suiteTableData['inetBanking']= { tableData: data, tableDiv: 'times-div-inetBanking'}
+data.setCell(0, 1, 'DDT')
+data.setCell(0, 2, 'testcCases.TC_LOGIN_DDT_002')
+data.setCell(0, 3, 17129);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DDT')
+data.setCell(1, 2, 'testcCases.TC_LOGIN_DDT_002')
+data.setCell(1, 3, 15254);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DDT')
+data.setCell(2, 2, 'testcCases.TC_LOGIN_DDT_002')
+data.setCell(2, 3, 13886);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DDT')
+data.setCell(3, 2, 'testcCases.TC_LOGIN_DDT_002')
+data.setCell(3, 3, 7959);
+window.suiteTableData['bankingSuite']= { tableData: data, tableDiv: 'times-div-bankingSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-inetBanking">
-              </div> <!-- times-div-inetBanking -->
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-bankingSuite">
+              </div> <!-- times-div-bankingSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-inetBanking" class="panel">
+        <div panel-name="reporter-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for inetBanking</span>
+            <span class="header-content">Reporter output for bankingSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-inetBanking" class="panel">
+        <div panel-name="ignored-methods-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-inetBanking" class="panel">
+        <div panel-name="chronological-bankingSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcCases.TC_001_Logintest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcCases.TC_LOGIN_DDT_002</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">DDT(mngr574690, pUdepEh)</span>
+                <span class="method-start">7219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DDT(abcd, sfst)</span>
+                <span class="method-start">24350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DDT(mngr576017, tubAjUg)</span>
+                <span class="method-start">32314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DDT(mngr576019, abejAnU)</span>
+                <span class="method-start">46202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61457 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

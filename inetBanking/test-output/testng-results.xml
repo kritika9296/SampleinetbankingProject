@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T05:55:08Z" name="inetBanking" finished-at="2024-06-06T05:55:08Z" duration-ms="39">
+  <suite started-at="2024-06-10T04:20:45Z" name="bankingSuite" finished-at="2024-06-10T04:21:47Z" duration-ms="61791">
     <groups>
     </groups>
-    <test started-at="2024-06-06T05:55:08Z" name="Test" finished-at="2024-06-06T05:55:08Z" duration-ms="39">
-      <class name="testcCases.TC_001_Logintest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcCases.TC_001_Logintest@157853da]" started-at="2024-06-06T11:25:08Z" name="setup" finished-at="2024-06-06T11:25:08Z" duration-ms="5" status="FAIL">
+    <test started-at="2024-06-10T04:20:45Z" name="TC_001_Logintest" finished-at="2024-06-10T04:21:47Z" duration-ms="61791">
+      <class name="testcCases.TC_LOGIN_DDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:50:45Z" name="setup" finished-at="2024-06-10T09:50:51Z" duration-ms="6161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -15,62 +15,59 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "testcCases.baseClass.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "testcCases.baseClass.driver" is null
-	at testcCases.baseClass.setup(baseClass.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testcCases.TC_001_Logintest@157853da]" started-at="2024-06-06T11:25:08Z" name="login" finished-at="2024-06-06T11:25:08Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:50:52Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:10Z" duration-ms="17129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr574690]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pUdepEh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:10Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:18Z" duration-ms="7959" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sfst]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "testcCases.baseClass.driver" is null]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "testcCases.baseClass.driver" is null
-	at testcCases.baseClass.setup(baseClass.java:35)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at testcCases.TC_LOGIN_DDT_002.DDT(TC_LOGIN_DDT_002.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
@@ -88,15 +85,47 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcCases.TC_001_Logintest@157853da]" started-at="2024-06-06T11:25:08Z" name="tearDown" finished-at="2024-06-06T11:25:08Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- DDT -->
+        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:18Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:31Z" duration-ms="13886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr576017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tubAjUg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:31Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:47Z" duration-ms="15254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr576019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abejAnU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:47Z" name="tearDown" finished-at="2024-06-10T09:51:47Z" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcCases.TC_001_Logintest -->
-    </test> <!-- Test -->
-  </suite> <!-- inetBanking -->
+      </class> <!-- testcCases.TC_LOGIN_DDT_002 -->
+    </test> <!-- TC_001_Logintest -->
+  </suite> <!-- bankingSuite -->
 </testng-results>
