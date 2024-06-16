@@ -5,7 +5,8 @@
 	  <parameter name="browser" value="chrome"></parameter>
     <classes>
      <!-- <class name="testcCases.TC_001_Logintest"/> -->
-       <class name="testcCases.TC_LOGIN_DDT_002"/>
+      <!-- <class name="testcCases.TC_LOGIN_DDT_002"/> -->
+        <class name="testcCases.TC_AddCutomertest"/>
     </classes>
   </test> <!-- Bankign_First -->
 </suite> <!-- banking_Suite -->

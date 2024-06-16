@@ -4,13 +4,13 @@
   <test name="TC_001_Logintest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcCases.TC_LOGIN_DDT_002">
+      <class name="testcCases.TC_AddCutomertest">
         <methods>
           <include name="tearDown"/>
+          <include name="addcust"/>
           <include name="setup"/>
-          <include name="DDT" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testcCases.TC_LOGIN_DDT_002 -->
+      </class> <!-- testcCases.TC_AddCutomertest -->
     </classes>
   </test> <!-- TC_001_Logintest(failed) -->
 </suite> <!-- Failed suite [bankingSuite] -->

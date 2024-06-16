@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T04:20:45Z" name="bankingSuite" finished-at="2024-06-10T04:21:47Z" duration-ms="61791">
+  <suite started-at="2024-06-16T18:38:19Z" name="bankingSuite" finished-at="2024-06-16T18:38:46Z" duration-ms="27357">
     <groups>
     </groups>
-    <test started-at="2024-06-10T04:20:45Z" name="TC_001_Logintest" finished-at="2024-06-10T04:21:47Z" duration-ms="61791">
-      <class name="testcCases.TC_LOGIN_DDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:50:45Z" name="setup" finished-at="2024-06-10T09:50:51Z" duration-ms="6161" status="PASS">
+    <test started-at="2024-06-16T18:38:19Z" name="TC_001_Logintest" finished-at="2024-06-16T18:38:46Z" duration-ms="27357">
+      <class name="testcCases.TC_AddCutomertest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcCases.TC_AddCutomertest@71c3b41]" started-at="2024-06-17T00:08:19Z" name="setup" finished-at="2024-06-17T00:08:23Z" duration-ms="4234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:50:52Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:10Z" duration-ms="17129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr574690]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pUdepEh]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDT -->
-        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:10Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:18Z" duration-ms="7959" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abcd]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sfst]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="addcust()[pri:0, instance:testcCases.TC_AddCutomertest@71c3b41]" started-at="2024-06-17T00:08:23Z" name="addcust" finished-at="2024-06-17T00:08:46Z" duration-ms="22841" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -57,7 +29,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertTrue(Assert.java:41)
 	at org.testng.Assert.assertTrue(Assert.java:51)
-	at testcCases.TC_LOGIN_DDT_002.DDT(TC_LOGIN_DDT_002.java:26)
+	at testcCases.TC_AddCutomertest.addcust(TC_AddCutomertest.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -88,44 +60,12 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DDT -->
-        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:18Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:31Z" duration-ms="13886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr576017]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[tubAjUg]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDT -->
-        <test-method signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:31Z" name="DDT" data-provider="Logindata" finished-at="2024-06-10T09:51:47Z" duration-ms="15254" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr576019]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abejAnU]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcCases.TC_LOGIN_DDT_002@55f616cf]" started-at="2024-06-10T09:51:47Z" name="tearDown" finished-at="2024-06-10T09:51:47Z" duration-ms="326" status="PASS">
+        </test-method> <!-- addcust -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcCases.TC_AddCutomertest@71c3b41]" started-at="2024-06-17T00:08:46Z" name="tearDown" finished-at="2024-06-17T00:08:46Z" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcCases.TC_LOGIN_DDT_002 -->
+      </class> <!-- testcCases.TC_AddCutomertest -->
     </test> <!-- TC_001_Logintest -->
   </suite> <!-- bankingSuite -->
 </testng-results>

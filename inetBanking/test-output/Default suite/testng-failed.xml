@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcCases.TC_LOGIN_DDT_002">
+      <class name="testcCases.TC_AddCutomertest">
         <methods>
           <include name="tearDown"/>
+          <include name="addcust"/>
           <include name="setup"/>
-          <include name="DDT"/>
         </methods>
-      </class> <!-- testcCases.TC_LOGIN_DDT_002 -->
+      </class> <!-- testcCases.TC_AddCutomertest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
